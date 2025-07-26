@@ -81,15 +81,15 @@ lazy_static::lazy_static! {
     pub static ref APP_HOME_DIR: RwLock<String> = Default::default();
 }
 
-pub const LINK_DOCS_HOME: &str = "http://tianren.com/docs/en/";
-pub const LINK_DOCS_X11_REQUIRED: &str = "http://tianren.com/docs/en/manual/linux/#x11-required";
+pub const LINK_DOCS_HOME: &str = "http://rustdesk.com/docs/en/";
+pub const LINK_DOCS_X11_REQUIRED: &str = "http://rustdesk.com/docs/en/manual/linux/#x11-required";
 pub const LINK_HEADLESS_LINUX_SUPPORT: &str =
     "https://github.com/rustdesk/rustdesk/wiki/Headless-Linux-Support";
 lazy_static::lazy_static! {
     pub static ref HELPER_URL: HashMap<&'static str, &'static str> = HashMap::from([
-        ("tianren docs home", LINK_DOCS_HOME),
-        ("tianren docs x11-required", LINK_DOCS_X11_REQUIRED),
-        ("tianren x11 headless", LINK_HEADLESS_LINUX_SUPPORT),
+        ("rustdesk docs home", LINK_DOCS_HOME),
+        ("rustdesk docs x11-required", LINK_DOCS_X11_REQUIRED),
+        ("rustdesk x11 headless", LINK_HEADLESS_LINUX_SUPPORT),
         ]);
 }
 
